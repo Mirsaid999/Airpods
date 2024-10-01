@@ -1,0 +1,247 @@
+@import './fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: rgb(21, 21, 21);
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.nav{
+    padding: 10px 0;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(40, 40, 40);
+}
+
+.nav__list{
+    display: flex;
+    gap: 20px;
+}
+
+.nav__list-link{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.content-search{
+    display: flex;
+    gap: 25px;
+}
+
+.nav__content-images{
+    display: flex;
+    justify-content: end;
+}
+
+.poster{
+    background-image: url(../images/Header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+}
+
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.poster__title{
+    color: rgb(255, 255, 255);
+    font-family: 'Prosto One';
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.poster-btn{
+    color: rgb(23, 23, 24);
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.poster-btn:hover{
+    background: black;
+    color: white;
+}
+
+
+.white__subtitle{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white__headphones{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.black__headphones{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black__subtitle{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 500;
+    max-width: 540px;
+}
+
+.white__earphone{
+    display: flex;
+    margin:  0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.earphone__subtitle{
+    max-width: 333px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earphone__line{
+    display: flex;
+    align-items: center;
+
+}
+
+.earphone__subtitles{
+    max-width: 333px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.products__items{
+    width: 100%;
+    max-width: 255px;
+    border-radius: 6px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    transition: .5s;
+}
+
+.products__items:hover{
+    box-shadow: 10px 7px 10px rgb(83, 78, 78);
+}
+
+.product__item{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 30px;
+   justify-content: center;
+   margin-top: 90px;
+}
+
+.products__items-title{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+    padding-bottom: 10px;
+}
+
+.products__items-subtitle{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.products__items-btn{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    max-width: 161px;
+    padding: 5px;
+    transition: .5s;
+}
+
+.products__items-btn:hover{
+    background-color: rgb(60, 162, 60);
+    color: black;
+}
+
+.naves{
+    margin-top: 55px;
+    background: rgb(40, 40, 40);
+    padding: 95px;
+}
+
+
+
+
